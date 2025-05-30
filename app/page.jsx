@@ -95,7 +95,7 @@ export default function Portfolio() {
         "Implemented rate limiting (100 requests/IP/minute)",
         "CRUD functionality for flight searching and filtration",
       ],
-      link: "#",
+      link: "https://github.com/vijit-vishnoi/AirlineManagementProject.git",
       color: "from-emerald-500 to-teal-700",
       icon: <Server className="h-6 w-6" />,
     },
@@ -109,7 +109,7 @@ export default function Portfolio() {
         "Reduced server load by 35% through query optimization",
         "User authentication, tweets, likes, and comments",
       ],
-      link: "#",
+      link: "https://github.com/vijit-vishnoi/Twitter.git",
       color: "from-violet-500 to-purple-700",
       icon: <Layers className="h-6 w-6" />,
     },
@@ -123,7 +123,7 @@ export default function Portfolio() {
         "99.9% message delivery success rate",
         "Private and group messaging with live updates",
       ],
-      link: "#",
+      link: "https://github.com/vijit-vishnoi/Chat-app.git",
       color: "from-amber-500 to-orange-700",
       icon: <Zap className="h-6 w-6" />,
     },
@@ -290,10 +290,10 @@ export default function Portfolio() {
             </Button>
           </div>
           <div className="flex justify-center space-x-6">
-            <a href="https://github.com" className="text-gray-400 hover:text-emerald-400 transition-transform hover:scale-110">
+            <a href="https://github.com/vijit-vishnoi" className="text-gray-400 hover:text-emerald-400 transition-transform hover:scale-110">
               <Github className="h-6 w-6" />
             </a>
-            <a href="https://linkedin.com" className="text-gray-400 hover:text-emerald-400 transition-transform hover:scale-110">
+            <a href="https://www.linkedin.com/in/vijit-vishnoi-793b86292/" className="text-gray-400 hover:text-emerald-400 transition-transform hover:scale-110">
               <Linkedin className="h-6 w-6" />
             </a>
             <a href="mailto:vishnoivijit@gmail.com" className="text-gray-400 hover:text-emerald-400 transition-transform hover:scale-110">
@@ -567,9 +567,12 @@ export default function Portfolio() {
                           <p className="mt-2 text-white/80">{project.description}</p>
                         </div>
                       </div>
+                      <a href={project.link} target="_blank" rel="noopener noreferrer">
                       <Button variant="ghost" size="icon" className="text-white hover:bg-white/20">
                         <ExternalLink className="h-5 w-5" />
                       </Button>
+                    </a>
+
                     </div>
                   </div>
 
@@ -613,10 +616,13 @@ export default function Portfolio() {
                     </div>
 
                     <div className="mt-8">
+                      <a href={project.link} target="_blank" rel="noopener noreferrer">
                       <Button className="bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white transition-all duration-300 transform group-hover:scale-105">
                         View Project
                         <ArrowRight className="ml-2 h-4 w-4" />
                       </Button>
+                    </a>
+
                     </div>
                   </div>
                 </div>
@@ -718,13 +724,13 @@ export default function Portfolio() {
           <p className="text-gray-400">© 2024 Vijit Vishnoi. All rights reserved.</p>
           <div className="flex justify-center space-x-6 mt-4">
             <a
-              href="https://github.com"
+              href="https://github.com/vijit-vishnoi"
               className="text-gray-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-110"
             >
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/vijit-vishnoi-793b86292/"
               className="text-gray-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-110"
             >
               <Linkedin className="h-5 w-5" />
